@@ -25,16 +25,23 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.soheil2-wrapper {
+.header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px; /* Adjust the gap as needed */
+    justify-content: flex-start; 
+    width: 100%; 
 }
 
 .logo-image {
     width: 50px; /* Adjust the size as needed */
     height: auto;
+    margin-right: 10px; 
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
 }
 .link {
     display: block;
