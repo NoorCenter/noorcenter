@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
+    font-size:1.5em
 }
 .link {
     display: block;
