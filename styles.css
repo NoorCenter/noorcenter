@@ -25,6 +25,17 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.soheil2-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.logo-image {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
 .link {
     display: block;
     margin: 10px 0;
